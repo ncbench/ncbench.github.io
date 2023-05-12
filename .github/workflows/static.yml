@@ -34,7 +34,7 @@ jobs:
       - name: Fetch report
         uses: benday-inc/download-latest-artifact@main
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}'
+          token: ${{ secrets.FETCH_ARTIFACT_TOKEN }}'
           repository_owner: ncbench
           repository_name: ncbench-workflow
           workflow_name: benchmark
